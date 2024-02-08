@@ -47,10 +47,41 @@ void deleteItem(struct LinkedList* L, int dataToDelete) {
 
 }
 
-int size(struct LinkedList L) {
-
+int searchList(struct LinkedList* L, int data) {
+	struct node* temp = L->head;
+	while (temp != NULL) {
+		if (temp->data == data) return 1;
+		temp = temp->next;
+	}
+	return 0;
 }
 
+//Change all instances of oldData to newData
+void update(struct LinkedList* L, int oldData, int newData) {
+	struct node* temp = L->head;
+	while (temp != NULL) {
+		if (temp->data == oldData) temp->data=newData;
+		temp = temp->next;
+	}
+}
 
-
+//Insert a new node containing newData
+//between the first nodes containing previousData and nextData
+void insert(struct LinkedList* L, int previousData, int nextData, int newData) {
+	if (L->size < 2) return;
+	
+	struct node* temp = L->head;
+	while (temp->next != NULL) {
+		if (temp->data == previousData && temp->next->data == nextData) {
+			struct node* newNode = (struct node*)malloc(sizeof(struct node));
+			newNode->next = temp->next;
+			temp->next = newNode;
+			newNode->data = newData;
+			L->size++;
+			return;
+		}
+		temp = temp->next;
+	}
+	
+}
 
