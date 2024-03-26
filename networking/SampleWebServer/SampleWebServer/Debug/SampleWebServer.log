@@ -1,0 +1,6 @@
+﻿  source.c
+D:\csec201-2235-inclass\networking\SampleWebServer\SampleWebServer\source.c(20,14): warning C4047: 'function': 'SOCKET' differs in levels of indirection from 'SOCKET *'
+D:\csec201-2235-inclass\networking\SampleWebServer\SampleWebServer\source.c(20,14): warning C4024: 'closesocket': different types for formal and actual parameter 1
+D:\csec201-2235-inclass\networking\SampleWebServer\SampleWebServer\source.c(70,39): warning C4133: 'function': incompatible types - from 'sockaddr_in *' to 'sockaddr *'
+D:\csec201-2235-inclass\networking\SampleWebServer\SampleWebServer\source.c(73,10): warning C4047: '=': 'HANDLE' differs in levels of indirection from 'uintptr_t'
+  SampleWebServer.vcxproj -> D:\csec201-2235-inclass\networking\SampleWebServer\Debug\SampleWebServer.exe

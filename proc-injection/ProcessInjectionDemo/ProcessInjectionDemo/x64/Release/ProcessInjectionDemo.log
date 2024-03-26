@@ -1,0 +1,10 @@
+﻿cl : command line  warning D9025: overriding '/sdl' with '/GS-'
+  source.c
+D:\csec201-2235-inclass\proc-injection\ProcessInjectionDemo\ProcessInjectionDemo\source.c(71,69): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'void *'
+D:\csec201-2235-inclass\proc-injection\ProcessInjectionDemo\ProcessInjectionDemo\source.c(71,69): warning C4024: 'CreateRemoteThread': different types for formal and actual parameter 6
+  Generating code
+  3 of 6 functions (50.0%) were compiled, the rest were copied from previous compilation.
+  Finished generating code
+    1 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  ProcessInjectionDemo.vcxproj -> D:\csec201-2235-inclass\proc-injection\ProcessInjectionDemo\x64\Release\ProcessInjectionDemo.exe

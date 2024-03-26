@@ -1,0 +1,10 @@
+﻿cl : command line  warning D9025: overriding '/sdl' with '/GS-'
+  source.c
+D:\csec201-2235-inclass\networking\SampleClient\SampleClient\source.c(30,24): warning C4133: 'function': incompatible types - from 'sockaddr_in *' to 'const sockaddr *'
+D:\csec201-2235-inclass\networking\SampleClient\SampleClient\source.c(44,25): warning C4133: 'function': incompatible types - from 'sockaddr_in *' to 'const sockaddr *'
+D:\csec201-2235-inclass\networking\SampleClient\SampleClient\source.c(18,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\csec201-2235-inclass\networking\SampleClient\SampleClient\source.c(20,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\csec201-2235-inclass\networking\SampleClient\SampleClient\source.c(29,28): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\csec201-2235-inclass\networking\SampleClient\SampleClient\source.c(33,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\csec201-2235-inclass\networking\SampleClient\SampleClient\source.c(36,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SampleClient.vcxproj -> D:\csec201-2235-inclass\networking\SampleClient\Debug\SampleClient.exe
